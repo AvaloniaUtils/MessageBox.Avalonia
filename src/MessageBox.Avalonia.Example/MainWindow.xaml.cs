@@ -21,7 +21,7 @@ namespace MessageBox.Avalonia.Example
         {
            
             var messageBoxStandardWindow = MessageBox.Avalonia.MessageBoxManager
-                .GetMessageBoxStandardWindow("title", "Are you sure you want clear all the 1 profiles?", MessageBoxAvaloniaEnums.ButtonEnum.Ok, MessageBoxAvaloniaEnums.Icon.Stopwatch);
+                .GetMessageBoxStandardWindow("title", "Are you sure you want clear all the 1 profiles?", MessageBoxAvaloniaEnums.ButtonEnum.Ok, MessageBoxAvaloniaEnums.Icon.Battery);
             var r = await messageBoxStandardWindow.ShowDialog(this);
         }
 

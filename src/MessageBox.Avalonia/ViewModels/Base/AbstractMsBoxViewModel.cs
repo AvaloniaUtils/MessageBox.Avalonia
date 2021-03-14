@@ -36,7 +36,7 @@ namespace MessageBox.Avalonia.ViewModels
         {
             ImagePath = new Bitmap(AvaloniaLocator.Current.GetService<IAssetLoader>()
                 .Open(new Uri(
-                    $" avares://MessageBox.Avalonia/Assets/{@params.Icon.ToString().ToLowerInvariant()}.ico")));
+                    $" avares://MessageBox.Avalonia/Assets/{@params.Icon.ToString().ToLowerInvariant()}.png")));
         }
 
         MaxWidth = @params.MaxWidth;
